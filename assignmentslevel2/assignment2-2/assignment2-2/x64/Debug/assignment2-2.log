@@ -1,0 +1,4 @@
+﻿  assignment2-2.cpp
+D:\courseprogrgramming\assignmentslevel2\assignment2-2\assignment2-2\assignment2-2.cpp(20,8): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\courseprogrgramming\assignmentslevel2\assignment2-2\assignment2-2\assignment2-2.cpp(30,1): warning C4715: 'CheckPrime': not all control paths return a value
+  assignment2-2.vcxproj -> D:\courseprogrgramming\assignmentslevel2\assignment2-2\x64\Debug\assignment2-2.exe
