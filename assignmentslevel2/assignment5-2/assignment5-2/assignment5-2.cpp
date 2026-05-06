@@ -14,14 +14,16 @@ int ReadPositiveNumber(string Massege) {
 	return Number;
 }
 
-void ReservedOrderNumber(int Number) {
-	string StN;
-	StN = to_string(Number);
+void PrintDigits(int Number) {
 
-	for (int i = StN.length()-1; i >= 0; i--) {
+	int Reminder = 0;
+	
+	while (Number > 0)
 
-		cout << StN[i] << endl;
-
+	{
+		Reminder = Number % 10;
+		Number = Number / 10;
+		cout << Reminder << endl;
 	}
 }
 
@@ -29,6 +31,6 @@ void ReservedOrderNumber(int Number) {
 int main()
 {
 
-	ReservedOrderNumber(ReadPositiveNumber("Please enter a positive numbers ?"));
+	PrintDigits(ReadPositiveNumber("Please enter a positive numbers ?"));
 
 }
