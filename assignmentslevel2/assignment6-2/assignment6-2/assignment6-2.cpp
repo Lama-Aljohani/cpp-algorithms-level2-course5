@@ -14,28 +14,24 @@ int ReadPositiveNumber(string Massege) {
 	return Number;
 }
 
-int PrintDigits(int Number) {
+int SumOfDigits(int Number) {
 
-	int Reminder = 0;
-	int Sum = 0;
+	int  Sum = 0, Reminder = 0;
 
-
-	do {
+	while (Number > 0) {
 
 		Reminder = Number % 10;
 		Number = Number / 10;
 		Sum = Sum + Reminder;
 
-	} while (Number > 0);
-
-	cout << "Sum Of Digits = " << Sum << endl;
-
+	}
 	return Sum;
 }
 
 int main()
 {
+	cout << "\nSum Of Digits = "
+		<< SumOfDigits(ReadPositiveNumber("Please enter a positive number?"))
+		<< "\n";
 
-	PrintDigits(ReadPositiveNumber("Please enter a positive numbers ?"));
-
-}
+	return 0;  
