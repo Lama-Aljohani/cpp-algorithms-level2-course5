@@ -1,0 +1,39 @@
+#include <iostream>
+using namespace std;
+#include <string>
+#include<cmath>
+
+int ReadPositiveNumber(string Massege) {
+
+	int Number = 0;
+	do
+	{
+		cout << Massege << endl;
+		cin >> Number;
+	} while (Number <= 0);
+
+	return Number;
+}
+
+void PrintInvertedNumberPattern(int Number) {
+
+	for (int i = 1; i <= Number; i++) {
+
+
+		for (int j = 1; j <= i; j++) {
+
+			cout << i;
+
+		}
+		cout << "\n";
+	}
+}
+
+int main()
+{
+
+	PrintInvertedNumberPattern(ReadPositiveNumber("Please enter a positive number ?"));
+
+
+	return 0;
+}
