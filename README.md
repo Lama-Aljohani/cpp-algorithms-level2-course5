@@ -12,6 +12,6 @@ Includes solutions to 50 progressively challenging problems that enhance logical
 
 This repository is the extension of the course:
 
-👉 https://github.com/Lama-Aljohani/cpp-programming-course/tree/main
+👉 [https://github.com/Lama-Aljohani/cpp-programming-course/tree/main](https://github.com/Lama-Aljohani/cpp-algorithms-level2-course5)
 
 It contains advanced exercises and extended solutions for deeper practice.
