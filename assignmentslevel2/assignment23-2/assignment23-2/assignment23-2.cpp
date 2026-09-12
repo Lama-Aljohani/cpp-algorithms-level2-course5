@@ -21,17 +21,23 @@ int RandomNumber(int From, int To) {
 
 }
 
-void ReadArray(int arr[100], int& arrLength)
+void FillArayWithRandomNumber(int arr[100], int& arrLength)
 {
     cout << "\nEnter number of elements:\n";
     cin >> arrLength;
 
     for (int i = 0; i < arrLength; i++)
-    {
-        cout << RandomNumber(10, 100) << endl;
-        
-    }
-    cout << endl;
+        arr[i] = RandomNumber(1,100);
+ }
+
+
+void PrintArray(int arr[100], int arrLength)
+{
+
+    for (int i = 0; i < arrLength; i++)
+        cout << arr[i] << " ";
+
+    cout << "\n";
 }
 
 int main() {
@@ -41,8 +47,10 @@ int main() {
     int arr[100];
     int arrLength;
 
-    ReadArray(arr, arrLength);
+    FillArayWithRandomNumber(arr, arrLength);
 
+    cout << " \nArray Elemnts: ";
+    PrintArray(arr, arrLength);
 
     return 0;
 }
