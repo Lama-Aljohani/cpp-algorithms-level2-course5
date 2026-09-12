@@ -1,4 +1,4 @@
-cpp-algorithms-level2-course5-private
+cpp-algorithms-level2-course5
 
 Algorithms & Problem-Solving – Level 2 (C++)
 
@@ -10,7 +10,7 @@ Includes solutions to 50 progressively challenging problems that enhance logical
 
 ## 🔗 Related Repository
 
-This repository is the private extension of the public course:
+This repository is the extension of the course:
 
 👉 https://github.com/Lama-Aljohani/cpp-programming-course/tree/main
 
