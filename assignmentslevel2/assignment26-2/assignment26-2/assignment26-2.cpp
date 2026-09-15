@@ -41,13 +41,13 @@ void PrintArray(int arr[100], int arrLength)
 
 int SumNumberInArray(int arr[100], int arrLength)
 {
-    int sum = arr[0];
+    int Sum = 0;
 
     for (int i = 0; i < arrLength; i++)
     {
-            sum += arr[i];
+            Sum += arr[i];
     }
-    return sum;
+    return Sum;
 }
 
 int main() {
